@@ -1,6 +1,7 @@
+import SignOutButton from "@/src/components/sign-out-button";
 import { Text, View } from "react-native";
 
-export default function Categories() {
+const ProfileScreen = () => {
   return (
     <View
       style={{
@@ -9,7 +10,10 @@ export default function Categories() {
         alignItems: "center",
       }}
     >
-      <Text>BrowseScreen</Text>
+      <Text>ProfileScreen</Text>
+      <SignOutButton />
     </View>
-  );
+  )
 }
+
+export default ProfileScreen;
