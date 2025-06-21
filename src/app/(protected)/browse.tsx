@@ -1,6 +1,6 @@
 import { Text, View } from "react-native";
 
-const ProfileScreen = () => {
+const BrowseScreen = () => {
   return (
     <View
       style={{
@@ -9,9 +9,9 @@ const ProfileScreen = () => {
         alignItems: "center",
       }}
     >
-      <Text>ProfileScreen</Text>
+      <Text>BrowseScreen</Text>
     </View>
-  )
+  );
 }
 
-export default ProfileScreen;
+export default BrowseScreen
